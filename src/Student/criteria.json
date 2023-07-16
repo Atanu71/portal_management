@@ -1,0 +1,149 @@
+{
+    "scholarships": [
+      {
+        "category": "Academic",
+        "scholarships": [
+          {
+            "name": "Merit Based Scholarships (For Freshman students)",
+            "details": [
+              "The Applicant must have:",
+              "- GPA 5.00 (Golden) OR GPA 5.00 in SSC and HSC",
+              "- 5 (Five) ‘A’ in O-Level (at a time) and 2 (two) ‘A’ in A-Level (at a time); no grade lower than ‘B’",
+              "Application Procedure:",
+              "- An applicant fulfilling all the above criteria must sit for a Scholarship Exam and must pass with Satisfactory Grade",
+              "- The number of recipients may vary from time to time and the Award of Scholarship depends on the availability of slots."
+            ]
+          },
+          {
+            "name": "Academic Scholarship for Regular Students",
+            "details": [
+              "The Applicant must have:",
+              "- Complete two (2) regular semesters (Spring & Fall)",
+              "- Can apply only in a regular semester.",
+              "- Regular academic load of at least 14-15 credits (Undergraduate Degree Program), 12 credits (Graduates Degree Program), 4 Courses (EMBA Degree Program) per regular semester.",
+              "- CGPA of 3.75 or above.",
+              "- No grade lower than ‘B+’ in all academic period.",
+              "- No ‘Fail (F)’, no ‘Incomplete (I), no ‘Withdrawn (W)’, no ‘Unofficial Withdrawn (UW)’, no dropping course(s) or no Retake Course(s)",
+              "- No Disciplinary Action Taken",
+              "Note:",
+              "- The number of recipients may vary from time to time and the Award of Scholarship depends on the availability of slots."
+            ]
+          },
+          {
+            "name": "Dr. Anwarul Abedin Scholarship for female Undergraduate Students",
+            "details": [
+              "This scholarship grant is established in honor of the late Founder and Chairman of the Board of Trustees of the American International University-Bangladesh (AIUB), Dr. Anwarul Abedin.",
+              "The grant covers only the tuition fee (100%) given to qualified female student every regular semester, Fall and Spring, based on the number of slots to be declared by the Scholarship Committee. (One per faculty)",
+              "Criteria for the Selection of Recipients (For Undergraduate Female Students Only)",
+              "- CGPA OF 3.8 and above",
+              "- No grade below B+",
+              "- Regular Full Time/Full Credit, 12-15 credits with no semester gap",
+              "- Certification of No Disciplinary Action (to be issued by OSA)",
+              "- Certification of Good Moral Character (to be issued by OSA)",
+              "- Membership in any AIUB Club",
+              "- Certification of Active Participation in Department/Course Extra Curricular Activities (e.g., volunteer, organizer of seminars, workshops, competitions, etc.)",
+              "- Not a recipient of any kind of scholarship/financial assistance provided by the university or any other organization.",
+              "The renewal of the Grant every regular semester is subject to maintaining the CGPA and other criteria prescribed above."
+            ]
+          },
+          {
+            "name": "Mrs. Hasna Abedin Scholarship (Proposed)",
+            "details": [
+              "This scholarship grant is established in honor of the late Founder and Chairman of the Board of Trustees of the American International University-Bangladesh (AIUB), Mrs. Hasna Abedin.",
+              "The grant covers only the tuition fee (100%) given to qualified post graduate student every regular semester, Fall and Spring, based on the number of slots to be declared by the Scholarship Committee. (One per faculty)",
+              "Criteria for the Selection of Recipients (For Postgraduate Students Only)",
+              "- CGPA OF 3.8 and above",
+              "- No grade below B+",
+              "- Regular Full Time/Full Credit, 12 credits with no semester gap",
+              "- Certification of No Disciplinary Action (to be issued by OSA)",
+              "- Certification of Active Participation in Department/Course Extra Curricular/ Social Welfare/ Research Activities.",
+              "- Not a recipient of any kind of scholarship/financial assistance provided by the university or any other organization.",
+              "The renewal of the Grant every regular semester is subject to maintaining the CGPA and other criteria prescribed above."
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Extracurricular",
+        "scholarships": [
+          {
+            "name": "National Talents Scholarships",
+            "details": [
+              "Details of the scholarship criteria for National Talents Scholarships"
+            ]
+          },
+          {
+            "name": "Sports Scholarships",
+            "details": [
+              "Details of the scholarship criteria for Sports Scholarships"
+            ]
+          },
+          {
+            "name": "Club Scholarships",
+            "details": [
+              "Details of the scholarship criteria for Club Scholarships"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Financial Aid",
+        "scholarships": [
+          {
+            "name": "General Need Based Tuition Fee Waiver",
+            "details": [
+              "Details of the scholarship criteria for General Need Based Tuition Fee Waiver"
+            ]
+          },
+          {
+            "name": "Freedom Fighter Waiver",
+            "details": [
+              "Details of the scholarship criteria for Freedom Fighter Waiver"
+            ]
+          },
+          {
+            "name": "Alumni Tuition Fee Waiver",
+            "details": [
+              "Details of the scholarship criteria for Alumni Tuition Fee Waiver"
+            ]
+          },
+          {
+            "name": "Corporate Tuition Fee Waiver",
+            "details": [
+              "Details of the scholarship criteria for Corporate Tuition Fee Waiver"
+            ]
+          },
+          {
+            "name": "Sibling Waiver",
+            "details": [
+              "Details of the scholarship criteria for Sibling Waiver"
+            ]
+          },
+          {
+            "name": "AIUB Employee Waiver",
+            "details": [
+              "Details of the scholarship criteria for AIUB Employee Waiver"
+            ]
+          },
+          {
+            "name": "AIUB Employee Dependent Waiver",
+            "details": [
+              "Details of the scholarship criteria for AIUB Employee Dependent Waiver"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "On-campus jobs",
+        "scholarships": [
+          {
+            "name": "Volunteer Scheme",
+            "details": [
+              "Details of the scholarship criteria for Volunteer Scheme"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
