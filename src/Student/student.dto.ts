@@ -4,7 +4,7 @@ import {IsNumber,IsEmail,isNotEmpty, IsEmpty, IsNotEmpty, IsString, Matches} fro
 
 export class StudentDTO{
    @IsString({message:"invalid name"})
-   @Matches( /^[a-zA-Z]+$/, {message:"enter a proper name"})
+   @Matches( /^[a-z A-Z]+$/, {message:"enter a proper name"})
     name: string;
 
   @IsEmail({}, {message:"invalid email"})
