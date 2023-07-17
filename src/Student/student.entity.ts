@@ -52,8 +52,8 @@ export class StudentProfile{
   @Column()
   password:string;
   
-  @Column({nullable:true})
-  filenames:string;
+  // @Column({nullable:true})
+  // filenames:string;
   
 
 @OneToOne(() =>StudentEntity, student =>student.profiles)

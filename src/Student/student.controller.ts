@@ -292,21 +292,43 @@ return this.studentService.signup(mydata);
 
 }
 
-@Post('/signin')
-signIn(@Body() data:StudentDTO, @Session() session){
+// @Post('/signin')
+// signIn(@Body() data:StudentDTO, @Session() session){
 
-  if (this.studentService.signIn(data)) {
+//   if (this.studentService.signIn(data)) {
+//     session.email = data.email;
+//     // return true;
+//     return { message: 'Login successful' };
+// }
+// else {
+
+//     return false;
+// }
+  
+// }
+@Post('/signin')
+
+async signIn(@Body() data: StudentDTO, @Session() session) {
+
+  const isSignInSuccessful = await this.studentService.signIn(data);
+
+ 
+
+  if (isSignInSuccessful) {
+
     session.email = data.email;
-    // return true;
-    return { message: 'Login successful' };
-}
-else {
+
+    // session.password = data.password;
+
+    return true;
+
+  } else {
 
     return false;
-}
-  
-}
 
+  }
+
+}
 
 //session
 // @Post('login')
@@ -395,6 +417,8 @@ async getNoticeById(@Param('id') id: number) {
 // return { message: 'profile updated successfully', profile:updatedprofile };
 // }
 
+
+
 @Post()
   async createStudent(@Body() studentData: Partial<StudentEntity>, @Body() profileData: Partial<StudentProfile>): Promise<StudentEntity> {
     return this.studentService.createStudentWithProfile(studentData, profileData);
@@ -418,12 +442,17 @@ async getNoticeById(@Param('id') id: number) {
 //mailer
 
   @Post('/send-email')
-  async sendEmail(@Body() emailData: { subject: string; recipient: string; content: string }): Promise<void> {
+  async sendEmail(@Body() emailData: { subject: string; recipient: string; content: string }): Promise<string> {
     const { subject, recipient, content } = emailData;
-    await this.studentService.sendEmail(subject, recipient, content);
+    try {
+      await this.studentService.sendEmail(subject, recipient, content);
+      return 'Email sent successfully!' ;
+    } catch (error) {
+      
+      throw new HttpException('Failed to send email', HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
   }
-
-
 
 
 

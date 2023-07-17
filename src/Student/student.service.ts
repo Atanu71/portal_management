@@ -45,13 +45,19 @@ export class StudentService{
 
 
     async sendEmail(subject: string, recipient: string, content: string): Promise<void> {
+      try{
+
+      
       await this.mailerService.sendMail({
         to: recipient,
         subject,
         text: content,
       });
+      }
+      catch(error){
+        throw error;
+      }
     }
-
 
     getScholarshipCriteria() {
         const filePath = "src/Student/criteria.json"; 
@@ -204,10 +210,27 @@ async updateProfile(
 
 
     //login
-async signIn(data:StudentLoginDTO) {
-    const userdata= await this.studentRepo.findOneBy({email:data.email});
-const match:boolean = await bcrypt.compare(data.password, userdata.password);
-return match;
+// async signIn(data:StudentLoginDTO) {
+//     const userdata= await this.studentRepo.findOneBy({email:data.email});
+// const match:boolean = await bcrypt.compare(data.password, userdata.password);
+// return match;
+
+// }
+async signIn(data: StudentLoginDTO) {
+
+  const userdata = await this.studentRepo.findOneBy({ email: data.email });
+  if (!userdata) {
+
+    return false;
+
+  }
+
+
+
+
+  const match = await bcrypt.compare(data.password, userdata.password);
+
+  return match;
 
 }
 
